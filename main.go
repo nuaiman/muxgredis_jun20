@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"muxgres/db"
-	"muxgres/routes"
+	"muxgredis/db"
+	"muxgredis/routes"
+
 	"net/http"
 )
 
