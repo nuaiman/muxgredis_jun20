@@ -2,14 +2,13 @@ package main
 
 import (
 	"fmt"
-	"muxgredis/db"
 	"muxgredis/routes"
 
 	"net/http"
 )
 
 func main() {
-	db.Init()
+	// db.Init()
 
 	router := http.NewServeMux()
 
